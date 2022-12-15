@@ -145,6 +145,7 @@ export ZOO_TLS_QUORUM_CLIENT_AUTH="${ZOO_TLS_QUORUM_CLIENT_AUTH:-need}"
 # Java settings
 export JVMFLAGS="${JVMFLAGS:-}"
 export ZOO_HEAP_SIZE="${ZOO_HEAP_SIZE:-1024}"
+export ZK_SERVER_HEAP=$ZOO_HEAP_SIZE
 
 # Client-server authentication
 export ALLOW_ANONYMOUS_LOGIN="${ALLOW_ANONYMOUS_LOGIN:-no}"
